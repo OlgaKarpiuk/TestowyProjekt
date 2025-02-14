@@ -8,6 +8,7 @@ public enum UserProperties {
     USER_PROPERTIES();
 
         private final Properties prop;
+
     UserProperties() {
         prop = new Properties();
         try {

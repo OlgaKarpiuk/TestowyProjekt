@@ -9,6 +9,7 @@ public class LoginPage {
     private final SelenideElement passwordInput = $("#password");
     private final SelenideElement submitButton = $("button[name='login']");
     public SelenideElement invalidInfoMessage = $("ul.woocommerce-error");
+    public SelenideElement welcomeMessage = $("div.woocommerce-MyAccount-content");
 
     public void userLogsAs(String email, String password) {
         emailInput.setValue(email);
